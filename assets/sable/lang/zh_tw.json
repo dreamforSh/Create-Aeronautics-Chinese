@@ -1,0 +1,148 @@
+{
+  "menu.savingSubLevels": "正在儲存子層級",
+
+  "commands.sable.helper.missing_sub_level_container": "無法找到此層級的子層級容器！",
+  "commands.sable.helper.missing_physics_system": "無法找到此層級的子層級物理系統！",
+
+  "commands.sable.sub_level": "子層級",
+  "commands.sable.sub_levels": "%s 個子層級",
+
+  "commands.sable.physics.global": "全域",
+  "commands.sable.physics.local": "局部",
+
+  "commands.sable.spawn.success": "已生成 %s",
+  "commands.sable.spawn.clone.success": "已複製子層級",
+
+  "commands.sable.physics.impulse.angular.success": "已向 %s 的 %s 施加 %s 角衝量",
+  "commands.sable.physics.impulse.linear.success": "已向 %s 的 %s 施加 %s 線性衝量",
+  "commands.sable.physics.rotation.add.success": "已向 %s 的 %s 新增 %s 旋轉",
+  "commands.sable.physics.rotation.set.success": "已將 %s 的旋轉設置為 %s",
+  "commands.sable.physics.translation.add.success": "已向 %s 的 %s 新增 %s 位移",
+  "commands.sable.physics.translation.set.success": "已將 %s 的位移設置為 %s",
+
+  "commands.sable.joint.missing_sublevel_target": "未能找到關節對應的子層級",
+  "commands.sable.joint.success": "已成功建立關節",
+
+  "commands.sable.sub_level.set_name.success_singular": "已將子層級名稱設置為 %s",
+  "commands.sable.sub_level.set_name.success_multiple": "已將 %s 個子層級名稱設置為 %s",
+
+  "commands.sable.sub_level.get_name.success": "子層級名稱為 %s",
+  "commands.sable.sub_level.get_name.failure_unnamed": "子層級沒有名稱",
+
+  "commands.sable.sub_level.clear_name.success_singular": "已清除子層級名稱",
+  "commands.sable.sub_level.clear_name.success_multiple": "已清除 %s 個子層級的名稱",
+
+  "commands.sable.sub_level.teleport_with_orientation.success": "已將 %s 傳送至 %.2f, %.2f, %.2f，朝向 %.2f, %.2f",
+  "commands.sable.sub_level.teleport.success": "已將 %s 傳送至 %.2f, %.2f, %.2f",
+  "commands.sable.sub_level.remove.success": "已移除 %s",
+  "commands.sable.sub_level.assemble.no_blocks": "無法組裝子層級，未找到有效方塊",
+  "commands.sable.sub_level.assemble.connected.too_many_blocks": "無法組裝子層級，方塊數量過多（最多 %s 個）",
+  "commands.sable.sub_level.shatter.no_blocks": "無法分裂為子層級，未找到有效方塊",
+  "commands.sable.sub_level.shatter.connected.too_many_blocks": "無法分裂為子層級，方塊數量過多（最多 %s 個）",
+  "commands.sable.sub_level.shatter.region.success": "已將含 %s 個方塊的區域分裂為新子層級",
+  "commands.sable.sub_level.shatter.connected.success": "已將 %s 個相連方塊分裂為新子層級",
+  "commands.sable.sub_level.shatter.range.success": "已將含 %s 個方塊的範圍分裂為新子層級",
+  "commands.sable.sub_level.shatter.radius.success": "已將含 %s 個方塊的半徑範圍分裂為新子層級",
+  "commands.sable.sub_level.shatter.sub_level.success": "已將 %s 分裂為 %s 個新子層級",
+  "commands.sable.sub_level.shatter.sub_level.only_single_block": "無法分裂單方塊子層級",
+  "commands.sable.sub_level.assemble.region.success": "已將區域內 %s 個方塊組裝為新子層級",
+  "commands.sable.sub_level.assemble.connected.success": "已將 %s 個相連方塊組裝為新子層級",
+  "commands.sable.sub_level.assemble.radius.success": "已將半徑範圍內 %s 個方塊組裝為新子層級",
+  "commands.sable.sub_level.assemble.range.success": "已將範圍內 %s 個方塊組裝為新子層級",
+
+  "commands.sable.physics.paused.success": "已將物理暫停狀態設置為 %s",
+  "commands.sable.physics.paused_toggled.success": "已切換物理暫停狀態為 %s",
+
+  "commands.sable.place_schematic.failure": "未能找到示意圖！",
+  "commands.sable.place_schematic.success": "已放置示意圖！",
+
+  "commands.sable.fail.not_inside_sub_level": "位置在子層級範圍之外",
+  "commands.sable.fail.no_sub_levels": "未找到子層級",
+  "commands.sable.fail.unmodified": "沒有子層級被修改",
+  "commands.sable.fail.no_axis_for_rotation": "旋轉沒有有效軸",
+
+  "commands.sable.info.count": "找到 %s 個子層級：",
+  "commands.sable.info.name": "%s：",
+  "commands.sable.info.name.tooltip": "序列化指標：%s",
+  "commands.sable.info.position": "    位置：%.2f %.2f %.2f",
+  "commands.sable.info.orientation": "    朝向：%.2f %.2f %.2f %.2f",
+  "commands.sable.info.linear_velocity": "    線速度：%.2f %.2f %.2f",
+  "commands.sable.info.angular_velocity": "    角速度：%.2f %.2f %.2f",
+  "commands.sable.info.mass": "    質量：%.2f",
+
+  "commands.data.sub_level.get": "子層級 %s 上經縮放係數 %s 後的 %s 為 %s",
+  "commands.data.sub_level.modified": "已修改 %s 的子層級附加資料",
+  "commands.data.sub_level.query": "%s 擁有以下子層級附加資料：%s",
+
+  "argument.sable.body.selector.all": "所有子層級",
+  "argument.sable.body.selector.nearest": "最近的子層級",
+  "argument.sable.body.selector.random": "隨機子層級",
+  "argument.sable.body.selector.viewed": "正在查看的子層級",
+  "argument.sable.body.selector.latest": "最新子層級",
+  "argument.sable.body.selector.tracking": "追蹤中的子層級",
+  "argument.sable.body.selector.inside": "內部子層級",
+  "argument.sable.body.static_world": "靜態世界",
+
+  "argument.sable.sub_level.modifier.distance": "到子層級的距離",
+  "argument.sable.sub_level.modifier.x": "x 座標",
+  "argument.sable.sub_level.modifier.y": "y 座標",
+  "argument.sable.sub_level.modifier.z": "z 座標",
+  "argument.sable.sub_level.modifier.dx": "x 到 x+dx 之間的子層級",
+  "argument.sable.sub_level.modifier.dy": "y 到 y+dy 之間的子層級",
+  "argument.sable.sub_level.modifier.dz": "z 到 z+dz 之間的子層級",
+  "argument.sable.sub_level.modifier.vx": "x 速度",
+  "argument.sable.sub_level.modifier.vy": "y 速度",
+  "argument.sable.sub_level.modifier.vz": "z 速度",
+  "argument.sable.sub_level.modifier.speed": "子層級速度",
+  "argument.sable.sub_level.modifier.mass": "子層級重量",
+  "argument.sable.sub_level.modifier.volume": "子層級包圍盒體積",
+  "argument.sable.sub_level.modifier.width": "子層級包圍盒 X 軸大小",
+  "argument.sable.sub_level.modifier.height": "子層級包圍盒 Y 軸大小",
+  "argument.sable.sub_level.modifier.length": "子層級包圍盒 Z 軸大小",
+  "argument.sable.sub_level.modifier.limit": "返回子層級的最大數量",
+  "argument.sable.sub_level.modifier.name": "子層級名稱",
+  "argument.sable.sub_level.modifier.sort": "按距離排序子層級",
+  "argument.sable.unexpected_end_of_input": "意外的輸入結束",
+  "argument.sable.single_sub_level_required": "只允許一個子層級，但所提供的選擇器允許多個",
+  "argument.sable.sub_level.invalid": "無效的子層級選擇器",
+  "argument.sable.sub_level.expected_end_of_modifier": "預期修飾符結束",
+  "argument.sable.sub_level.expected_positive_integer": "預期一個正整數",
+  "argument.sable.sub_level.expected_positive_decimal": "預期一個正小數",
+  "argument.sable.sub_level.expected_positive_range": "預期一個正數範圍",
+  "argument.sable.sub_level.expected_sorting": "預期排序類型為 nearest 或 furthest",
+
+  "inspector.sable.sub_level_container.title": "子層級容器",
+
+  "attribute.name.player.sub_level_punch_strength": "推力強度",
+  "attribute.name.player.sub_level_punch_cooldown": "推力冷卻",
+
+  "options.sable_menu": "子層級設置...  ",
+  "options.physics_steps": "物理步進",
+  "options.physics_steps_template": "%s 步/秒",
+  "options.physics_steps.tooltip": "每秒物理模擬的步進次數。數值越高，性能消耗越大，但精度越高。",
+
+  "sub_level.toast.checkLog": "查看日誌以獲取更多詳情",
+  "sub_level.toast.loadFailure": "載入子層級失敗：%s",
+  "sub_level.toast.saveFailure": "儲存子層級失敗：%s",
+  "sub_level.toast.physicsFailure": "子層級物理錯誤：%s",
+  "sub_level.toast.attemptingRecovery": "嘗試恢復",
+
+  "camera_type.sub_level_view": "進入裝置攝影機",
+  "camera_type.sub_level_view_unlocked": "進入解鎖裝置攝影機",
+
+  "force_group.sable.gravity": "重力",
+  "force_group.sable.drag": "阻力",
+  "force_group.sable.levitation": "漂浮力",
+  "force_group.sable.balloon_lift": "氣球升力",
+  "force_group.sable.propulsion": "推進力",
+  "force_group.sable.lift": "升力",
+  "force_group.sable.magnetic_force": "磁力",
+
+  "schematic.sable.mirror_not_supported": "無法鏡像包含子層級的示意圖！",
+
+  "death.attack.fall.from_sublevel": "%1$s 從 %2$s 墜落",
+
+  "sable.create.mechanical_arm.points_removed_sublevel_and_range": "%1$s 個選定交互點因超出範圍或未錨定而被移除。",
+  "sable.create.remove.points_removed_sublevel": "%1$s 個選定交互點因未錨定而被移除"
+}
+
